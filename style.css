@@ -886,13 +886,16 @@ img { max-width: 100%; display: block; }
 
 .operation-final {
     position: relative;
-    padding: 65px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     border: 1px solid var(--accent-dark);
     border-radius: var(--radius-xl);
     background:
         linear-gradient(135deg, rgba(155,169,92,.09), transparent 55%),
         var(--panel);
     transition: .3s;
+    max-height: 900px;
 }
 
 .operation-final:hover { box-shadow: var(--glow); }
@@ -985,6 +988,12 @@ img { max-width: 100%; display: block; }
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+}
+
+.sukapizdablyat {
+    border-radius: 15px;
+    height: 600px;
+    width: 100%;
 }
 
 .cta-inner > div:first-child span {
